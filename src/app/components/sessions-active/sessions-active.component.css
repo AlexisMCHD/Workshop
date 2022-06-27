@@ -1,0 +1,186 @@
+body{
+    background-color: #f4f4f4;
+    padding: 0;
+    margin: 0; 
+    height: 40px;
+    font-family: 'Livvic', sans-serif; 
+  }
+  header{
+    width: 100%;
+    height: 24%;
+    background-color: #009ACE;
+    box-shadow: 0px 1px 0px rgb(192, 192, 192);
+}
+  .flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 10px;
+    margin-top: 40px;
+  }    
+  .participant{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 10px;
+    height: 480px;
+  }
+  .top1{
+    margin-top: 5px;
+    box-shadow: 1px 1px 3px #909090;
+    flex-wrap: wrap;
+    width: 1545px;
+    height: 66px;
+    border-style: solid;
+    border-color: #f6f6f6;
+    background-color: #f6f6f6;
+    border-radius: 5px 5px 0px 0px; 
+    border-width: 1px;
+    text-align: center;
+    font-size: 22px;
+    color: #009ACE;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  .content{
+    overflow: scroll;
+    margin-bottom: 5px;
+    box-shadow: 1px 1px 3px #909090;
+    flex-wrap: wrap;
+    width: 1545px;
+    height: 494px;
+    border-style: solid;
+    border-color: #ffffff;
+    background-color: #ffffff;
+    border-radius: 0px 0px 5px 5px; 
+    border-width: 1px;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+    display: flex;
+  }
+  .dispo{ 
+  
+  font-size: 22px;
+  color: #009ACE;
+  margin: 19px 0 ;
+  text-decoration: none;
+  }
+  .dispo1{
+    
+    font-size: 22px;
+    color: #009ACE;
+    margin: 19px 0 ;
+    text-decoration: none;
+    }
+  .dispo2{ 
+    font-size: 18px;
+    color: #009ACE;
+    margin: 21px 0 ;
+    text-decoration: none;
+  }
+  .cal{
+   vertical-align: middle;
+  }
+  .searchTerm {
+    width: 100%;
+    border: 2px solid #AAAAAA;
+    border-left: none;
+    height: 29px;
+    border-radius: 0 5px 5px 0;
+    outline: none;
+    color: #AAAAAA;
+    background-color: #ffffff;
+  
+  }
+  .loop{
+    vertical-align: middle;
+    margin: 0px 0px;
+    float: right;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .searchButton {
+    vertical-align: middle;
+    width: 58px;
+    border: 2px solid #AAAAAA;
+    border-right: none;
+    text-align: center;
+    color: #AAAAAA;
+    border-radius: 5px 0 0 5px;
+    cursor: pointer;
+    font-size: 25px;
+    background-color: #ffffff;
+    
+  }
+  .ajust{
+    vertical-align: middle;
+    margin: 8px
+    
+  }
+  .search{
+    vertical-align: middle;
+    position: relative;
+    display: flex;
+  }
+  .flex-box{
+    display: flex;
+    flex-wrap: wrap;
+    width:700px;
+    height: 62px;
+    font-size: 21px;
+    margin-left: 16px;
+    margin-right: 50px;
+  }
+  .nom{
+    display: flex;
+    font-size: 21px;
+  }
+  .email{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+    float: left;
+  }
+  .signature{
+    display: flex;
+    float: right;
+  }
+  .btn{
+    width: 100%;
+  }
+  button{
+    color: #000000;
+    text-decoration: none;
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+  }
+  .sign:link {
+    color: #000000;
+    text-decoration: none;
+  }
+  .sign:link, .sign:visited {
+    color: black;
+    text-decoration: none;
+  }
+  .tableau{
+    width: 100%;
+  }
+  
+  
+  /* width */
+  ::-webkit-scrollbar {
+    width: 7px;
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #cccccc; 
+    border-radius: 7px;
+  }
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #AAAAAA; 
+  }

@@ -1,0 +1,116 @@
+body{
+    background-color: rgb(246,246,246);
+    padding: 0;
+    margin: 0; 
+    font-family: 'Livvic', sans-serif; 
+}
+header{
+    width: 100%;
+    height: 24%;
+    background-color: #009ACE;
+    box-shadow: 0px 1px 0px rgb(192, 192, 192);
+    margin-bottom: 122px;
+}
+
+.blue{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    color: #009ACE;
+    padding: 10px;
+}
+.searchTerm {
+    width: 80%;
+    border: 1px solid #009ACE;
+    border-radius: 1px;
+    padding: 15px;
+    outline: none;
+    color: #000000;
+    background-color: #ffffff;
+    margin-bottom: 15px;
+    
+  }
+.modify{
+    justify-content: center;
+    width: 720px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: flex;
+}
+.flex-modify{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+input{
+    float: right;
+}
+.lettre{
+    font-size: 15px;
+    color: #868993;
+    vertical-align: middle;
+}
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.flex1{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.flex2{
+    width: 352px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.liste{
+    width: 680px;
+    text-align: center;
+    border-style: solid;
+    border-color: #009ACE;
+    background-color: #009ACE;
+    border-radius:  5px;
+    border-width: 1px;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 20px ;
+    text-decoration: none;  
+}
+
+.back{
+    width: 95%;
+    text-align: center;
+    border-style: solid;
+    border-color: #009ACE;
+    background-color:none;
+    border-radius:  5px;
+    border-width: 1px;
+    font-size: 16px;
+    color: #009ACE;
+    padding: 20px ;
+    text-decoration: none;
+}
+.check{
+    width: 95%;
+    text-align: center;
+    border-style: solid;
+    border-color: #009ACE;
+    border-radius:  5px;
+    border-width: 1px;
+    font-size: 16px;
+    color: #009ACE;
+    padding: 20px ;
+    text-decoration: none;
+
+}
+.image{
+    float: left;
+}

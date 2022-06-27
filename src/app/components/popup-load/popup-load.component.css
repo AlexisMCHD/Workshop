@@ -1,0 +1,13 @@
+.box{
+    margin-bottom: 15px;
+    box-shadow: 1px 3px 3px #909090;
+    flex-wrap: wrap;
+    width: 660px;
+    height: 300px;
+    border-style: solid;
+    border-color: #ffffff;
+    background-color: #ffffff;
+    border-radius: 5px 5px 5px 5px;   
+    border-width: 1px;
+    text-align: center;
+}

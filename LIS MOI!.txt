@@ -1,0 +1,32 @@
+Ajuster touts les pixels des pages et components pour faire des alignements parfait.
+
+Finir le responsive de la page "sessions-sign".
+
+Rendre fonctionel le changement de langue via le component "header-auth".
+
+Faire sécuriser les routes via la page "app-routing.modules.ts".
+
+Trouver un moyen de faire la signature dans le canvas dans la page "signature.component".
+
+Rendre le bouton "effacer" de la page "signature-component" fonctionel.
+
+Faire le component d'une popup de chargement dans "popup-load" (il y a déjà des popup de fait comme exemple dans les components).
+
+Trouver un moyen pour faire charger les components de popup "popup-load" suivis par les différentes "popup-error" "popup-unvalid" et "popup-valid" dans la page "signature"
+
+Faire les routes listées ci-dessous :
+Récupérer tous les apprenants.
+Récupérer tous les formateurs.
+Récupérer les signatures
+Faire une signature
+Modifier des informations personnel
+Création d’un participants
+Récupérer les absents et les présents 
+
+Il y a les maquettes de disponible à cette url:
+https://drive.google.com/drive/u/1/folders/1pX-Xgm1XRjoBnLR5MRkYuCJFICijkm3B
+
+
+
+
+

@@ -1,0 +1,55 @@
+
+<!doctype html>
+<html lang="en">  
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+<body> 
+  <header>
+    <app-header-auth></app-header-auth>
+  </header>
+
+  <div class="container">
+    <div class="titre">Accéder à ma séance</div>
+    
+    <form >
+        <div class="controls">
+            <div class="titre2">1.Mon code séance (6 chiffres)</div>
+            <input class="enter" type="text" id="fname" name="fname" maxlength="6"><input class="cancel" type="reset" value="X">
+        </div>
+    </form>
+    
+    <form>
+        <div class="titre3">2.Mon code client (4 chiffres)</div>
+        <input class="enter" type="password" id="number" name="item" maxlength="4"><input class="cancel" type="reset" value="X">
+        
+    </form>
+
+    <form class="checked">
+            <input class="check" type="checkbox" id="number" name="item"><a class="white">Se souvenir de mon code d'identification</a> 
+        </form>
+
+        <form>
+            <input class="bouton" *ngIf="!authStatus" (click)="onSignIn()" type="button" id="number" name="item" value="Acceder à ma page de signature">
+        </form>
+
+        
+            <div class="liens">
+                <a class="white" href="">Lancer le portail de gestion</a>
+            </div>
+
+            <div class="liens">
+                <a class="white" href="">Mentions légales</a>
+            </div> 
+
+    </div>
+
+</body>
+</html>
+ 
